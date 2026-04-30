@@ -1,6 +1,5 @@
-body {
+body {}
 
-}
 /* ##### header ##### */
 header {
     display: flex;
@@ -18,7 +17,7 @@ div.logo {
     align-items: center;
 }
 
-div.logo img{
+div.logo img {
     height: 3rem;
 }
 
@@ -35,7 +34,7 @@ div.logo h1 {
     flex-direction: column;
 }
 
-nav.navbar ol{
+nav.navbar ol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,4 +43,9 @@ nav.navbar ol{
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+}
+
+/* ##### Hero ##### */
+div.hero img {
+    width: 100%;
 }
