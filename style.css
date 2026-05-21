@@ -116,7 +116,7 @@ div button {
     background-color: #2541B2;
     color: #FFF;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 button {
@@ -126,6 +126,13 @@ button {
     width: 100px;
     height: 60px;
 }
-footer {
-    background-color: #2541B2;
+
+button:hover {
+    background-color: #4568f5;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+li img:hover {
+    cursor: pointer;
+    transform: scaleY(1.2) scaleX(1.2);
 }
