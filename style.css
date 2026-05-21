@@ -86,10 +86,11 @@ div.content {
     text-align: center;
 
 }
-
+/* ##### Covid Test Content ##### */
 .covid-test-content img {
     width: 87%;
     margin-left: 100px;
+    margin-top: 90px;
 }
 
 .Covid b {
@@ -105,7 +106,7 @@ div.content {
     text-align: center;
     margin: 100px;
 }
-
+/* ##### Button ##### */
 div button {
     position: relative;
     left: 42%;
@@ -132,14 +133,17 @@ button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
+
 li img:hover {
     cursor: pointer;
     transform: scale(1.1)
 }
+
 li:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
+
 footer p {
     background-color: #2541B2;
     min-width: 100%;
